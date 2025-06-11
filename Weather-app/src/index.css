@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://img2.wallspic.com/previews/8/3/2/8/98238/98238-grazing-green-fog-ecosystem-sky-x750.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: rgba(255, 255, 255, 1.0);
+}
