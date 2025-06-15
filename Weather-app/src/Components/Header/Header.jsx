@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Main from "../Main/Main";
 // import axios from "axios";
+// import cities from "cities.json";
+import { cities } from "../../cities";
 
 function Header() {
+    console.log(cities);
+    console.log("from citie",cities);
     const [cityName, setCityName] = useState("");
     const [information, setInformation] = useState({});
     const [aqiData, setaqiData] = useState({});
